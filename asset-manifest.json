@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/www.hexpy.fyi/static/css/main.6e2cd64a.chunk.css",
-    "main.js": "/www.hexpy.fyi/static/js/main.ec6f46dc.chunk.js",
-    "main.js.map": "/www.hexpy.fyi/static/js/main.ec6f46dc.chunk.js.map",
-    "runtime-main.js": "/www.hexpy.fyi/static/js/runtime-main.bc209344.js",
-    "runtime-main.js.map": "/www.hexpy.fyi/static/js/runtime-main.bc209344.js.map",
-    "static/js/2.98db44dd.chunk.js": "/www.hexpy.fyi/static/js/2.98db44dd.chunk.js",
-    "static/js/2.98db44dd.chunk.js.map": "/www.hexpy.fyi/static/js/2.98db44dd.chunk.js.map",
-    "index.html": "/www.hexpy.fyi/index.html",
-    "static/css/main.6e2cd64a.chunk.css.map": "/www.hexpy.fyi/static/css/main.6e2cd64a.chunk.css.map",
-    "static/js/2.98db44dd.chunk.js.LICENSE.txt": "/www.hexpy.fyi/static/js/2.98db44dd.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.6e2cd64a.chunk.css",
+    "main.js": "/static/js/main.ec6f46dc.chunk.js",
+    "main.js.map": "/static/js/main.ec6f46dc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.53105f2a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.53105f2a.js.map",
+    "static/js/2.98db44dd.chunk.js": "/static/js/2.98db44dd.chunk.js",
+    "static/js/2.98db44dd.chunk.js.map": "/static/js/2.98db44dd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6e2cd64a.chunk.css.map": "/static/css/main.6e2cd64a.chunk.css.map",
+    "static/js/2.98db44dd.chunk.js.LICENSE.txt": "/static/js/2.98db44dd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc209344.js",
+    "static/js/runtime-main.53105f2a.js",
     "static/js/2.98db44dd.chunk.js",
     "static/css/main.6e2cd64a.chunk.css",
     "static/js/main.ec6f46dc.chunk.js"
