@@ -50,7 +50,9 @@ const skills = [
   'Change Management',
   'Agile Thinking',
   'Train People',
-  'Coffee'
+  'Coffee',
+  'Anti-fragile Systems',
+  'Factfulness (Did you read the book?)'
 ]
 
 const contact = {
