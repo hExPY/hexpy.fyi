@@ -18,6 +18,12 @@ const about = {
 
 const projects = [
   {
+    name: 'Mind Garden 🧠',
+    description: 'I\'d like to invite you to my ever growing (since 2022) mind garden. You can find lots of information about me and who I am. Enjoy your stay.',
+    stack: ['Notion', 'Gardening', 'Personal Development'],
+    livePreview: 'https://hexpy.notion.site/Marvyn-s-Mind-Garden-2267c2edf25d4dbf806398d330b9d841',
+  },
+  {
     name: 'PenPaperHero',
     description:
       'A client only application to manage your Pen and Paper character. Mainly used for the \'Savage Worlds\' ruleset. Sadly my group stopped playing so this project isn\'t under development right now.',
@@ -33,7 +39,6 @@ const skills = [
   'JavaScript',
   'Hunting Pokemon',
   'Terraform',
-  'Agile Mindset',
   'CDK',
   'AWS',
   'Cycling',
@@ -41,6 +46,9 @@ const skills = [
   'Coaching',
   'Continuous Security',
   'Mentoring',
+  'Reflecting',
+  'Change Management',
+  'Agile Thinking',
 ]
 
 const contact = {
