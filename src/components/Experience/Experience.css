@@ -1,0 +1,9 @@
+.experienceCard {
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: center;
+  transition: transform 0.2s linear;
+  background-color: var(--clr-bg-alt);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  z-index: 2 !important;
+}

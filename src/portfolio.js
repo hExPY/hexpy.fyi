@@ -55,6 +55,23 @@ const skills = [
   'Factfulness (Did you read the book?)'
 ]
 
+const experience = [
+  {
+    title: "Since July 2022",
+    cardTitle: "Aviv Group",
+    url: "https://www.aviv-group.com/",
+    cardSubtitle:"Security Project Manager",
+    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+  },
+  {
+    title: "Since February 2022",
+    cardTitle: "Aviv Group",
+    url: "https://www.aviv-group.com/",
+    cardSubtitle:"Security Officer Germany",
+    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+  }
+];
+
 const contact = {
   email: 'mzalewski@ownpixel.com',
 }
@@ -63,4 +80,4 @@ const footer = {
   cleanfolio: 'https://github.com/rajshekhar26/cleanfolio'
 }
 
-export { header, about, projects, skills, contact, footer }
+export { header, about, projects, skills, experience, contact, footer }
