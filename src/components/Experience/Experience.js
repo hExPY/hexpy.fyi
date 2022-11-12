@@ -5,8 +5,12 @@ import './Experience.css';
 
 const chronoTheme = {
     primary: '#bdbddd',
-    cardBgColor: 'var(--clr-bg-alt);',
+    cardBgColor: 'var(--clr-bg-alt)',
     titleColor: '#bdbddd',
+    textColor: '#bdbddd',
+    secondary: '#bdbddd',
+    cardForeColor: "var(--clr-fg-alt)"
+
 }
 
 const Experience = () => {
