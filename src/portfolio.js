@@ -24,15 +24,22 @@ const projects = [
     livePreview: 'https://hexpy.notion.site/Marvyn-s-Mind-Garden-2267c2edf25d4dbf806398d330b9d841',
   },
   {
-    name: 'PenPaperHero',
+    name: 'PenPaperHero ✍️',
     description:
       'A client only application to manage your Pen and Paper character. Mainly used for the \'Savage Worlds\' ruleset. Sadly my group stopped playing so this project isn\'t under development right now.',
     stack: ['TypeScript', 'Angular', 'SPA', 'PWA'],
     sourceCode: 'https://github.com/hExPY/PenPaperHero',
     livePreview: 'https://hexpy.github.io/PenPaperHero/',
   },
+  {
+    name: 'Cienca del Café ☕',
+    description:
+      'Hands down, I love delicious coffee. Thats exactly why I started this Notion project. Tracking every coffee I made to keep track of what I like and dislike. Additionally, I\'ll drop everything I know or think to know. At least you\'ll find my experiences there.',
+    stack: ['Notion', 'Coffee', 'Nerdism'],
+    livePreview: 'https://www.notion.so/hexpy/Ciencia-del-Caf-ffd1d25d8b63498c9c2b527eac069520',
+  },
 ]
-
+ 
 const skills = [
   'Growth Mindset',
   'TypeScript',
