@@ -10,8 +10,9 @@ const chronoTheme = {
     textColor: '#bdbddd',
     secondary: '#bdbddd',
     cardForeColor: "var(--clr-fg-alt)"
+};
 
-}
+const classNames = {card: 'experienceCard', cardTitle: "title", cardSubTitle: "title"};
 
 const Experience = () => {
     const [width, setWidth] = useState(window.innerWidth);
@@ -31,7 +32,7 @@ const Experience = () => {
     console.log(isMobile)
     return (<section className='section experience' id='experience'>
         <h2 className='section__title'>Experience</h2>
-        <Chrono theme={chronoTheme} classNames={{card: 'experienceCard', controls: ""}} items={experience}
+        <Chrono theme={chronoTheme} classNames={classNames} items={experience}
                 disableNavOnKey disableAutoScrollOnClick disableClickOnCircle hideControls activeItemIndex
                 mode={!isMobile ? "VERTICAL_ALTERNATING" : "VERTICAL"}/>
     </section>)
