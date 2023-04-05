@@ -5,9 +5,9 @@ const header = {
 
 const about = {
   name: 'Marvyn',
-  role: 'Cyber Security Specialist',
+  role: 'Security Architect',
   description: 'I\'m a dedicated, positive, communicative and down to earth techie loving to provide state-of-the-art solutions to make everyone\'s life more secure. Open-mindedness is my sixth forename (my Mum thought it would be funny to give me five forenames) and I\'m passionate about establishing a growth and learning mindset in teams. If you\'d like to engage me in a never ending conversation choose either cycling or coffee as a topic.',
-  // resume: 'https://hexpy.fyi/resume.pdf',
+  resume: 'https://hexpy.fyi/cv-marvyn-zalewski.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/m%E2%80%8Aarvyn-zalewski-515961a8/',
     github: 'https://github.com/hExPY/hexpy.fyi',
@@ -32,7 +32,7 @@ const projects = [
     livePreview: 'https://hexpy.github.io/PenPaperHero/',
   },
   {
-    name: 'Cienca del Café ☕',
+    name: 'Ciencia del Café ☕',
     description:
       'Hands down, I love delicious coffee. Thats exactly why I started this Notion project. Tracking every coffee I made to keep track of what I like and dislike. Additionally, I\'ll drop everything I know or think to know. At least you\'ll find my experiences there.',
     stack: ['Notion', 'Coffee', 'Nerdism'],
@@ -62,53 +62,52 @@ const skills = [
   'Factfulness (Did you read the book?)'
 ]
 
+const experience = []
+/*
 const experience = [
   {
     title: "Since July 2022",
     cardTitle: "Aviv Group",
     url: "https://www.aviv-group.com/",
     cardSubtitle:"Security Project Manager",
-    cardDetailedText: "As a Security Project Manager I take care ",
+    cardDetailedText: "",
   },
   {
-    title: "Since February 2022",
+    title: "Feb 2022 - Jan 2023",
     cardTitle: "Aviv Group",
     url: "https://www.aviv-group.com/",
     cardSubtitle:"Security Officer Germany",
-<<<<<<< Updated upstream
-    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+    cardDetailedText: "",
   },
   {
-    title: "September 2021 - July 2022",
+    title: "Okt 2021 - Jun 2022",
     cardTitle: "Immowelt Hamburg GmbH",
     url: "https://immowelt.de/",
     cardSubtitle:"Cyber Security Specialist",
-    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+    cardDetailedText: "",
   },
   {
-    title: "August 2015 - September 2021",
+    title: "Aug 2015 - Sep 2021",
     cardTitle: "Immowelt Hamburg GmbH",
     url: "https://immowelt.de/",
     cardSubtitle:"Devops Engineer",
-    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+    cardDetailedText: "",
   },
   {
-    title: "February 2014 - July 2015",
+    title: "Feb 2014 - Jul 2015",
     cardTitle: "Goodgame Studios",
     url: "https://immowelt.de/",
     cardSubtitle:"IT-Support",
-    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+    cardDetailedText: "",
   },
   {
-    title: "September 2011 - February 2014",
+    title: "Sep 2011 - Jan 2014",
     cardTitle: "tectumHOME GmbH",
-    cardSubtitle:"Training to IT-Systemelectrician",
-    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-=======
-    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.Men of the British Expeditionary Force (BEF) wade out to.",
->>>>>>> Stashed changes
+    cardSubtitle:"Apprenticeship IT Systems Electronics Technician",
+    cardDetailedText: "",
   }
 ];
+*/
 
 const contact = {
   email: 'mzalewski@ownpixel.com',

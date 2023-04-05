@@ -1,6 +1,6 @@
 import { Chrono } from "react-chrono";
 import {useEffect, useState} from "react";
-import { experience } from '../../portfolio';
+import {experience} from '../../portfolio';
 import './Experience.css';
 
 const chronoTheme = {
@@ -15,6 +15,8 @@ const chronoTheme = {
 const classNames = {card: 'experienceCard', cardTitle: "title", cardSubTitle: "title"};
 
 const Experience = () => {
+    if (experience.length <= 0) return null
+
     const [width, setWidth] = useState(window.innerWidth);
 
     function handleWindowSizeChange() {
@@ -29,14 +31,14 @@ const Experience = () => {
 
     const isMobile = width <= 768;
 
-    console.log(isMobile)
-    return (<section className='section experience' id='experience'>
-        <h2 className='section__title'>Experience</h2>
-        <Chrono theme={chronoTheme} classNames={classNames} items={experience}
-                disableNavOnKey disableAutoScrollOnClick disableClickOnCircle hideControls activeItemIndex
-                mode={!isMobile ? "VERTICAL_ALTERNATING" : "VERTICAL"}/>
-    </section>)
-
+    return (
+        <section className='section experience' id='experience'>
+            <h2 className='section__title'>Experience</h2>
+            <Chrono theme={chronoTheme} classNames={classNames} items={experience}
+                    disableNavOnKey disableAutoScrollOnClick disableClickOnCircle hideControls activeItemIndex
+                    mode={!isMobile ? "VERTICAL_ALTERNATING" : "VERTICAL"}/>
+        </section>
+    )
 }
 
 export default Experience;
