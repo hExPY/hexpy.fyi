@@ -62,14 +62,12 @@ const skills = [
   'Factfulness (Did you read the book?)'
 ]
 
-const experience = []
-/*
-const experience = [
+const experiences = [
   {
     title: "Since July 2022",
     cardTitle: "Aviv Group",
     url: "https://www.aviv-group.com/",
-    cardSubtitle:"Security Project Manager",
+    cardSubtitle:"Security Architect",
     cardDetailedText: "",
   },
   {
@@ -107,7 +105,6 @@ const experience = [
     cardDetailedText: "",
   }
 ];
-*/
 
 const contact = {
   email: 'mzalewski@ownpixel.com',
@@ -117,4 +114,4 @@ const footer = {
   cleanfolio: 'https://github.com/rajshekhar26/cleanfolio'
 }
 
-export { header, about, projects, skills, experience, contact, footer }
+export { header, about, projects, skills, experiences, contact, footer }
