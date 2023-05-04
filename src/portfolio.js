@@ -68,41 +68,41 @@ const experiences = [
     cardTitle: "Aviv Group",
     url: "https://www.aviv-group.com/",
     cardSubtitle:"Security Architect",
-    cardDetailedText: "",
+    cardDetailedText: "Text available soon. See resume at the top of the page.",
   },
   {
     title: "Feb 2022 - Jan 2023",
     cardTitle: "Aviv Group",
     url: "https://www.aviv-group.com/",
     cardSubtitle:"Security Officer Germany",
-    cardDetailedText: "",
+    cardDetailedText: "Text available soon. See resume at the top of the page.",
   },
   {
     title: "Okt 2021 - Jun 2022",
     cardTitle: "Immowelt Hamburg GmbH",
     url: "https://immowelt.de/",
     cardSubtitle:"Cyber Security Specialist",
-    cardDetailedText: "",
+    cardDetailedText: "Text available soon. See resume at the top of the page.",
   },
   {
     title: "Aug 2015 - Sep 2021",
     cardTitle: "Immowelt Hamburg GmbH",
     url: "https://immowelt.de/",
     cardSubtitle:"Devops Engineer",
-    cardDetailedText: "",
+    cardDetailedText: "Text available soon. See resume at the top of the page.",
   },
   {
     title: "Feb 2014 - Jul 2015",
     cardTitle: "Goodgame Studios",
     url: "https://immowelt.de/",
     cardSubtitle:"IT-Support",
-    cardDetailedText: "",
+    cardDetailedText: "Text available soon. See resume at the top of the page.",
   },
   {
     title: "Sep 2011 - Jan 2014",
     cardTitle: "tectumHOME GmbH",
     cardSubtitle:"Apprenticeship IT Systems Electronics Technician",
-    cardDetailedText: "",
+    cardDetailedText: "Text available soon. See resume at the top of the page.",
   }
 ];
 
