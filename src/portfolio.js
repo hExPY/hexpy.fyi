@@ -1,6 +1,6 @@
 const header = {
   homepage: 'https://hexpy.fyi',
-  title: 'hExPy',
+  title: 'MZ.',
 }
 
 const about = {
@@ -65,44 +65,44 @@ const skills = [
 const experiences = [
   {
     title: "Since July 2022",
-    cardTitle: "Aviv Group",
+    cardTitle: "Aviv Group GmbH",
     url: "https://www.aviv-group.com/",
     cardSubtitle:"Security Architect",
-    cardDetailedText: "Text available soon. See resume at the top of the page.",
+    cardDetailedText: "In the role of a Security Architecture team I am mainly responsible to assess applications developed internally. To support the engineering teams I took the lead to plan, develop, implement, and roll out a Secure Product Lifecycle (SPLC) to ensure security is baked into the DNA of our products. This process utilizes various resources from a dynamic and informative questionnaire to enable engineering teams to work independently and learn about security while developing their application, to a report that allows the management to understand the residual risks of the application and helps the team prioritize which mitigations to implement first. This role also innate the responsibility to establish a Security Architecture culture program to raise the awareness about security and train Product and Tech workforce sustainably by using different formats like presentations or guidelines. In order to measure the teams effectivity, I took part in the overall process of establishing meaningful KPIs such as the overall time until an assessment is completed depending on various conditions.",
   },
   {
     title: "Feb 2022 - Jan 2023",
-    cardTitle: "Aviv Group",
+    cardTitle: "Aviv Group GmbH",
     url: "https://www.aviv-group.com/",
     cardSubtitle:"Security Officer Germany",
-    cardDetailedText: "Text available soon. See resume at the top of the page.",
+    cardDetailedText: "The Security Officer Germany held a temporary role that supported the merge of the German brand immowelt into the AVIV Group until all required positions are filled. Their responsibilities included assessing the entire platform using the CIS framework, establishing foundational security and technical measures on AWS such as SCPs and multi-layer network architectures for future whitelabel product, and supporting other capabilities like legal or data privacy by serving as a single point of contact in both directions.",
   },
   {
     title: "Okt 2021 - Jun 2022",
     cardTitle: "Immowelt Hamburg GmbH",
     url: "https://immowelt.de/",
     cardSubtitle:"Cyber Security Specialist",
-    cardDetailedText: "Text available soon. See resume at the top of the page.",
+    cardDetailedText: "We were able to successfully establish the Cyber Security Specialist role in the company with a bottom up approach. I worked closely with with Head of Quality Assurance and Security, the VP Engineering, and Group Leader DevOps to establish a scaling security mindset based on security and privacy by design principles. My main mission was to provide a cyber security strategy to address the ever-changing threat landscape and sustainably improve the security posture of our platform immowelt.de by leveraging a variety of tools like a company-wide Capture-The-Flag to promote gamified learning experiences or processes like an emergency logbook based on parts of the ISO incidence response framework to raise the transparency when an incident occurs or we're affected by a critical vulnerability. Based on the NIST framework, I established a cyber security maturity model which helped me to point out specific areas to improve across the Product and Development department. By combining the knowledge about the company, derived improvements from the security maturity model, and experienced incidents, I was able to significantly reduce the attack surface of the platform by analyzing the deployed infrastructure on more than 100 AWS accounts using Python to pin-point exposed resources.",
   },
   {
     title: "Aug 2015 - Sep 2021",
     cardTitle: "Immowelt Hamburg GmbH",
     url: "https://immowelt.de/",
-    cardSubtitle:"Devops Engineer",
-    cardDetailedText: "Text available soon. See resume at the top of the page.",
+    cardSubtitle:"DevOps Engineer",
+    cardDetailedText: "As a DevOps Engineer at Immowelt Hamburg GmbH, I was responsible for a variety of projects and the legacy monolithic platform of immonet.de. These projects were mostly based on automate as much as possible to reduce the workload with the legacy platform. Among other things, this has been accomplished by replacing the legacy Infrastructure-as-Code tool Puppet by a highly modularized Ansible and step-by-step modernising parts of it with loosely coupled microservices. As the manual workload on the legacy platform has been reduced, I took a defining and pioneering role by establishing a DevOps mindset in the engineering team responsible to rebuild Immowelts main product the private property search in a all-in AWS strategy. My personal and company goal was to establish the \"You build it, you run it\" mindset and enable the team to work autonomously, independently, and efficiently with AWS but still maximizing the product scope without sacrificing a timely-reasonable product launch. At a certain point, the team took a leading role with the infrastructure and CI/CD development using Gitlab based products and Terraform (later CDKTF), which enabled me to gain experiences by developing several applications based on Java, Python, Typescript, and various frontend frameworks like Angular and React. The team and I were able to launch the minimum viable version of the private property search after 8 months and completed the feature set after 9 more months.",
   },
   {
     title: "Feb 2014 - Jul 2015",
-    cardTitle: "Goodgame Studios",
+    cardTitle: "Altigi GmbH Goodgame Studios",
     url: "https://immowelt.de/",
     cardSubtitle:"IT-Support",
-    cardDetailedText: "Text available soon. See resume at the top of the page.",
+    cardDetailedText: "In the IT-Support team of Goodgame Studios, I supported all colleagues in the company to work efficient, secure, and frictionless. After the onboarding, I also participated in the on-call duty for the platform and gained experience in coding, automation, and the Linux operating system. These experiences allowed me to participate in various projects like the client automation platform KACE by DELL or leading the live streaming solution based on Adobe Media Server and a handcrafted UI secured by an Active Directory login.",
   },
   {
     title: "Sep 2011 - Jan 2014",
     cardTitle: "tectumHOME GmbH",
     cardSubtitle:"Apprenticeship IT Systems Electronics Technician",
-    cardDetailedText: "Text available soon. See resume at the top of the page.",
+    cardDetailedText: "As an apprentice at tectumHOME GmbH, I mainly worked in private estates of our customers. I was responsible to install Crestron smart home hardware, programming the central logic unit, designing user interfaces, and installing other mostly network based components. The goal was building smart homes to manually and automatically control every single devices varying from audio-video mixer to security systems using different control devices like smartphones or proprietary control panel.",
   }
 ];
 

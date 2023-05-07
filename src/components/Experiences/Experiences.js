@@ -15,7 +15,7 @@ const chronoTheme = {
 
 const classNames = {card: 'experienceCard', cardTitle: "title", cardSubTitle: "title"};
 
-const Experience = () => {
+const Experiences = () => {
     if (experiences.length <= 0) return null
 
     const [width, setWidth] = useState(window.innerWidth);
@@ -31,19 +31,15 @@ const Experience = () => {
     }, []);
 
     const isMobile = width <= 768;
-    console.log(chronoTheme)
     return (
-        <section className='section experience' id='experience'>
+        <section className='section experience' id='experiences'>
             <h2 className='section__title'>Experience</h2>
             <Chrono theme={chronoTheme} classNames={classNames} items={experiences}
-                    disableNavOnKey disableAutoScrollOnClick disableClickOnCircle hideControls activeItemIndex
-                    mode={!isMobile ? "VERTICAL_ALTERNATING" : "VERTICAL"}>
-                <div className="chrono-icons">
-                    {experiences.map((experience) => <img className="icon" src="/tectumHOME%20GmbH.svg" alt={`Icon for ${experience.cardTitle}/${experience.cardSubtitle}`}/>)}
-                </div>
-            </Chrono>
+                    disableNavOnKey disableAutoScrollOnClick disableClickOnCircle hideControls activeItemIndex timelinePointDimension="20"
+                    mode={!isMobile ? "VERTICAL_ALTERNATING" : "VERTICAL"}
+            />
         </section>
     )
 }
 
-export default Experience;
+export default Experiences;
