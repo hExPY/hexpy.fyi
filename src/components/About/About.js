@@ -1,18 +1,21 @@
+import {useContext} from "react";
 import GitHubIcon from '@material-ui/icons/GitHub'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
+import {ThemeContext} from "../../contexts/theme";
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
-
+  const { name, role, description, resume, social } = about;
+  const [{ themeName }] = useContext(ThemeContext);
+  const isDarkTheme = themeName === "dark";
   return (
     <div className='about center'>
       {social && (
         <>
           {social.avatar && (
-            <img className='about__avatar' alt='avatar' src={social.avatar} />
+            <img className={`about__avatar ${isDarkTheme ? "about__grayscale" : ""}`} alt='avatar' src={social.avatar} />
           )}
         </>
       )}
