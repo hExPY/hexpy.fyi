@@ -94,7 +94,7 @@ const experiences = [
   {
     title: "Feb 2014 - Jul 2015",
     cardTitle: "Altigi GmbH Goodgame Studios",
-    url: "https://immowelt.de/",
+    url: "https://www.goodgamestudios.com/",
     cardSubtitle:"IT-Support",
     cardDetailedText: "In the IT-Support team of Goodgame Studios, I supported all colleagues in the company to work efficient, secure, and frictionless. After the onboarding, I also participated in the on-call duty for the platform and gained experience in coding, automation, and the Linux operating system. These experiences allowed me to participate in various projects like the client automation platform KACE by DELL or leading the live streaming solution based on Adobe Media Server and a handcrafted UI secured by an Active Directory login.",
   },
