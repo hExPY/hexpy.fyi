@@ -93,7 +93,7 @@ const experiences = [
   },
   {
     title: "Feb 2014 - Jul 2015",
-    cardTitle: "Altigi GmbH Goodgame Studios",
+    cardTitle: "Altigi GmbH // Goodgame Studios",
     url: "https://www.goodgamestudios.com/",
     cardSubtitle:"IT-Support",
     cardDetailedText: "In the IT-Support team of Goodgame Studios, I supported all colleagues in the company to work efficient, secure, and frictionless. After the onboarding, I also participated in the on-call duty for the platform and gained experience in coding, automation, and the Linux operating system. These experiences allowed me to participate in various projects like the client automation platform KACE by DELL or leading the live streaming solution based on Adobe Media Server and a handcrafted UI secured by an Active Directory login.",
@@ -101,6 +101,7 @@ const experiences = [
   {
     title: "Sep 2011 - Jan 2014",
     cardTitle: "tectumHOME GmbH",
+    url: "https://web.archive.org/web/20161219122146/http://www.tectumhome.com/",
     cardSubtitle:"Apprenticeship IT Systems Electronics Technician",
     cardDetailedText: "As an apprentice at tectumHOME GmbH, I mainly worked in private estates of our customers. I was responsible to install Crestron smart home hardware, programming the central logic unit, designing user interfaces, and installing other mostly network based components. The goal was building smart homes to manually and automatically control every single devices varying from audio-video mixer to security systems using different control devices like smartphones or proprietary control panel.",
   }
