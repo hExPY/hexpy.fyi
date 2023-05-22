@@ -38,6 +38,12 @@ const projects = [
     stack: ['Notion', 'Coffee', 'Nerdism'],
     livePreview: 'https://www.notion.so/hexpy/Ciencia-del-Caf-ffd1d25d8b63498c9c2b527eac069520',
   },
+  {
+    name: "AWS Policy Validator",
+    description: 'This project is under construction since it\'s fairly new. I recently needed the AWS Access Analyzer policy validator to validate a bunch of SCPsa (Service Control Policies) and add a simple exception to it to make sure I am able to suppress an policy too large error which is fixed by compacting afterwards.',
+    stack: ['TypeScript', 'AWS', 'CLI'],
+    sourceCode: 'https://github.com/hExPY/aws-policy-validator'
+  }
 ]
  
 const skills = [
